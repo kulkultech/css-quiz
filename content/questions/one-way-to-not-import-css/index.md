@@ -6,10 +6,10 @@ tags:
 order: 0
 date: Wed Oct 16 2019 00:33:56 GMT+0700 (Western Indonesia Time)
 answers: 
-  - inline style
-  - style block inside script tag // correct
-  - link tag
-  - style block inside Head or Body tag
+  - Inline Style
+  - Style Block Inside Script Tag // correct
+  - Link Tag
+  - Style Block Inside Head Or Body Tag
 ---
 
 
