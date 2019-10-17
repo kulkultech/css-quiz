@@ -6,13 +6,12 @@ const Bio = () => {
     <div
       style={{
         display: `flex`,
-        marginBottom: '30px',
-        fontSize: '14px'
+        marginBottom: '30px'
       }}
     >
       <p>
-        Learn css fundamentals through fun and
-        challenging quizzes!
+        Learn css fundamentals through fun and challenging
+        quizzes!
       </p>
     </div>
   );
