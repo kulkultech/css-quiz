@@ -19,7 +19,7 @@ const BlogIndex = props => {
   return (
     <Layout location={props.location} title={siteTitle}>
       <Bio />
-      <ol>
+      <ol style={{ padding: '0 16px' }}>
         {posts.map(({ node }) => {
           const title =
             node.frontmatter.title || node.fields.slug;
@@ -45,7 +45,9 @@ const BlogIndex = props => {
               <article>
                 <header>
                   <Link
-                    style={{ boxShadow: `none` }}
+                    style={{
+                      boxShadow: `none`
+                    }}
                     to={node.fields.slug}
                   >
                     {title}

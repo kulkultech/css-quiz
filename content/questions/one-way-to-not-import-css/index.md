@@ -3,7 +3,7 @@ title: One way to not import css
 tags:
   - import
   - stylesheet
-order: 0
+order: 1
 date: Wed Oct 16 2019 00:33:56 GMT+0700 (Western Indonesia Time)
 answers:
   - Inline Style
