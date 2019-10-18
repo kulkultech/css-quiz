@@ -53,3 +53,11 @@ The app was bootstrapped using the `gatsby-starter-blog` template and then massa
 ### css-quiz
 
 Up to the challenge? Take the quiz? Enjoyed the quiz? Contribute to the questions
+
+### Deployment
+
+Run below command to deploy to gh-pages.
+
+```bash
+npm run deploy
+```
