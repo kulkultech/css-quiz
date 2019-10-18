@@ -16,7 +16,7 @@ and install the latest yarn version for your system.
 
 :horse_racing: Run this command to clone the repo, it shall install the app locally and change to its directory automatically:
 
-`git clone https://github.com/nas5w/typeofnan-CSS-quizzes`
+`git clone https://github.com/fameweka/css-quiz.git fameweka-css-quizzes && cd $_`
 
 #### 2. Install dependencies
 
@@ -48,8 +48,16 @@ If you have any questions, let me know!
 
 ### :clipboard: About the app
 
-#### The app was bootstrapped using the `gatsby-starter-blog` template and then massaging it into a format conducive to quizzing. The app is deployed from `master` to Netlify.
+The app was bootstrapped using the `gatsby-starter-blog` template and then massaging it into a format conducive to quizzing. The app is deployed from `master` to Netlify.
 
 ### css-quiz
 
 Up to the challenge? Take the quiz? Enjoyed the quiz? Contribute to the questions
+
+### Deployment
+
+Run below command to deploy to gh-pages.
+
+```bash
+npm run deploy
+```
