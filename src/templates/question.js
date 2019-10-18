@@ -9,8 +9,6 @@ import {
   clearPersistedAnswer
 } from '../utils/persistAnswers';
 import { Button, Form, Grid } from 'semantic-ui-react';
-import correctBg from './correct.png';
-import incorrectBg from './incorrect.png';
 import { gaTrackAnswer } from '../utils/gaAnswerTracking';
 
 const QuestionTemplate = props => {
@@ -55,16 +53,6 @@ const QuestionTemplate = props => {
     }
   }, [selectedAnswer, correct, title]);
 
-  useEffect(() => {
-    const bg =
-      submittedAnswer === null
-        ? ''
-        : submittedAnswer === correct
-        ? correctBg
-        : incorrectBg;
-    document.body.style.backgroundImage = `url(${bg})`;
-  }, [submittedAnswer, correct]);
-
   const buttonText =
     submittedAnswer === null
       ? 'Submit'
@@ -83,14 +71,14 @@ const QuestionTemplate = props => {
         <Grid.Column>
           <article>
             <header>
-              <h1
+              <h2
                 style={{
                   marginTop: rhythm(1),
                   marginBottom: 15
                 }}
               >
                 {post.frontmatter.title}
-              </h1>
+              </h2>
             </header>
             <Form size="large">
               <section
@@ -103,7 +91,11 @@ const QuestionTemplate = props => {
               {answers.map(answer => (
                 <div
                   key={answer}
-                  style={{ marginBottom: '5px' }}
+                  style={{
+                    marginBottom: 8,
+                    display: 'flex',
+                    alignItems: 'center'
+                  }}
                 >
                   <input
                     type="radio"
@@ -115,9 +107,14 @@ const QuestionTemplate = props => {
                     }}
                     checked={selectedAnswer === answer}
                     disabled={submittedAnswer !== null}
+                    onChange={() => {}}
                   />
                   <label
-                    style={{ marginLeft: '10px' }}
+                    style={{
+                      fontSize: 14,
+                      marginLeft: '8px',
+                      lineHeight: 1.8
+                    }}
                     key={answer}
                     htmlFor={answer}
                   >
@@ -125,9 +122,11 @@ const QuestionTemplate = props => {
                     {answer === correct &&
                       submittedAnswer !== null && (
                         <React.Fragment>
-                          {' '}
-                          <i className="long arrow alternate left icon"></i>
-                          CORRECT ANSWER
+                          <i
+                            style={{ marginLeft: 16 }}
+                            className="long arrow alternate left icon"
+                          ></i>
+                          Correct answers
                         </React.Fragment>
                       )}
                   </label>
@@ -162,7 +161,7 @@ const QuestionTemplate = props => {
             </Form>
             {submittedAnswer !== null && (
               <React.Fragment>
-                <h2>Explanation:</h2>
+                <h3>Explanation:</h3>
                 <section
                   dangerouslySetInnerHTML={{
                     __html: explanationContent

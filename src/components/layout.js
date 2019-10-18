@@ -1,6 +1,6 @@
 import React, { useRef, useEffect } from 'react';
 import { Link } from 'gatsby';
-import { rhythm, scale } from '../utils/typography';
+import { rhythm } from '../utils/typography';
 import { Divider } from 'semantic-ui-react';
 
 const Layout = props => {
@@ -18,7 +18,6 @@ const Layout = props => {
     header = (
       <h1
         style={{
-          ...scale(1.5),
           fontSize: '30px',
           marginBottom: '20px',
           marginTop: 0,
@@ -41,6 +40,7 @@ const Layout = props => {
     header = (
       <h3
         style={{
+          fontSize: '30px',
           marginTop: 0
         }}
       >
