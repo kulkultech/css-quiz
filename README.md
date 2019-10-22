@@ -1,4 +1,5 @@
 <div>Learn CSS fundamentals through fun and challenging quizzes! :smiley:</div>
+[![All Contributors](https://img.shields.io/badge/all_contributors-1-orange.svg?style=flat-square)](#contributors)
 
 <hr />
 
@@ -61,3 +62,19 @@ Run below command to deploy to gh-pages.
 ```bash
 npm run deploy
 ```
+
+## Contributors ✨
+
+Thanks goes to these wonderful people ([emoji key](https://allcontributors.org/docs/en/emoji-key)):
+
+<!-- ALL-CONTRIBUTORS-LIST:START - Do not remove or modify this section -->
+<!-- prettier-ignore -->
+<table>
+  <tr>
+    <td align="center"><a href="https://github.com/nold2"><img src="https://avatars2.githubusercontent.com/u/22978812?v=4" width="100px;" alt="Arnold Sebastian"/><br /><sub><b>Arnold Sebastian</b></sub></a><br /><a href="https://github.com/fameweka/css-quiz/commits?author=nold2" title="Code">💻</a></td>
+  </tr>
+</table>
+
+<!-- ALL-CONTRIBUTORS-LIST:END -->
+
+This project follows the [all-contributors](https://github.com/all-contributors/all-contributors) specification. Contributions of any kind welcome!
