@@ -1,5 +1,5 @@
 ---
-title: What does css stand for
+title: What does css stand for?
 tags:
   - stylesheet
   - css stand for
