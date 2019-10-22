@@ -1,5 +1,5 @@
 <div>Learn CSS fundamentals through fun and challenging quizzes! :smiley:</div>
-[![All Contributors](https://img.shields.io/badge/all_contributors-1-orange.svg?style=flat-square)](#contributors)
+[![All Contributors](https://img.shields.io/badge/all_contributors-4-orange.svg?style=flat-square)](#contributors)
 
 <hr />
 
@@ -71,9 +71,10 @@ Thanks goes to these wonderful people ([emoji key](https://allcontributors.org/d
 <!-- prettier-ignore -->
 <table>
   <tr>
-    <td align="center"><a href="https://github.com/nold2"><img src="https://avatars2.githubusercontent.com/u/22978812?v=4" width="100px;" alt="Arnold Sebastian"/><br /><sub><b>Arnold Sebastian</b></sub></a><br /><a href="https://github.com/fameweka/css-quiz/commits?author=nold2" title="Code">💻</a></td>
     <td align="center"><a href="https://bukanme.me/"><img src="https://avatars1.githubusercontent.com/u/11813607?v=4" width="100px;" alt="mpj"/><br /><sub><b>mpj</b></sub></a><br /><a href="#infra-empeje" title="Infrastructure (Hosting, Build-Tools, etc)">🚇</a></td>
     <td align="center"><a href="http://urmauur.com"><img src="https://avatars2.githubusercontent.com/u/10354610?v=4" width="100px;" alt="Faisal Amir"/><br /><sub><b>Faisal Amir</b></sub></a><br /><a href="https://github.com/fameweka/css-quiz/commits?author=urmauur" title="Code">💻</a></td>
+    <td align="center"><a href="https://github.com/nold2"><img src="https://avatars2.githubusercontent.com/u/22978812?v=4" width="100px;" alt="Arnold Sebastian"/><br /><sub><b>Arnold Sebastian</b></sub></a><br /><a href="https://github.com/fameweka/css-quiz/commits?author=nold2" title="Code">💻</a></td>
+    <td align="center"><a href="https://djuanit0x.github.io/"><img src="https://avatars2.githubusercontent.com/u/38167041?v=4" width="100px;" alt="Dennis Juanito"/><br /><sub><b>Dennis Juanito</b></sub></a><br /><a href="#content-djuanit0x" title="Content">🖋</a></td>
   </tr>
 </table>
 
