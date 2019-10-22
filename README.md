@@ -1,11 +1,9 @@
-[![All Contributors](https://img.shields.io/badge/all_contributors-5-orange.svg?style=flat-square)](#contributors-)
+[![All Contributors](https://img.shields.io/badge/all_contributors-5-orange.svg?style=flat-square)](https://github.com/fameweka/css-quiz#contributors)
 [![GitHub issues](https://img.shields.io/github/issues/fameweka/css-quiz)](https://github.com/fameweka/css-quiz/issues) 
 [![PRs Welcome](https://img.shields.io/badge/PRs-welcome-brightgreen.svg?style=flat-square)](http://makeapullrequest.com) 
 [![GitHub forks](https://img.shields.io/github/forks/fameweka/css-quiz)](https://github.com/fameweka/css-quiz/network) 
 [![GitHub stars](https://img.shields.io/github/stars/fameweka/css-quiz)](https://github.com/fameweka/css-quiz/stargazers) 
 [![GitHub license](https://img.shields.io/github/license/fameweka/css-quiz)](https://github.com/fameweka/css-quiz/blob/master/LICENSE)
-
-<br />
 
 <div>Learn CSS fundamentals through fun and challenging quizzes! :smiley:</div>
 
