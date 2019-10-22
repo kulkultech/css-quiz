@@ -13,6 +13,15 @@
       "contributions": [
         "infra"
       ]
+    },
+    {
+      "login": "urmauur",
+      "name": "Faisal Amir",
+      "avatar_url": "https://avatars2.githubusercontent.com/u/10354610?v=4",
+      "profile": "http://urmauur.com",
+      "contributions": [
+        "code"
+      ]
     }
   ],
   "contributorsPerLine": 7,
